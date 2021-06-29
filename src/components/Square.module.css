@@ -1,0 +1,19 @@
+.square {
+  background-color: lightblue;
+  border: 1px solid rgba(69, 69, 202, 0.24);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: lavender;
+  cursor: pointer;
+}
+
+.square .value {
+  font-size: 40px;
+  color: blueviolet;
+}
